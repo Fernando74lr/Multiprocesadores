@@ -21,6 +21,6 @@ int main()
 
 /*
     EXECUTE:
-    gcc -fopenmp .\pi.c
+    gcc -fopenmp .\area_bajo_la_curva.c
     ./a.exe
 */

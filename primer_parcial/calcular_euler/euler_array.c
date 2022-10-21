@@ -8,7 +8,7 @@ const int N = 500;
 fptr=fopen("Euler_n_0.txt","w");
 printf("Numero de pasos:%d \n", N);
 fprintf(fptr, "Datos que encuentra el metodo de Euler(variable ind.\t variable dep.\t numero de thread)\n");
-    double h,t[N],w[N],ab;
+    double h,t[500],w[500],ab;
     double w0=0.5,a=0,b=2;
     int i;
     // omp_get_time

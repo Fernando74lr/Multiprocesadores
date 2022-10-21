@@ -51,7 +51,7 @@ void main()
 
 /*
     EXECUTE:
-    gcc -fopenmp .\pi_parallel.c
+    gcc -fopenmp .\area_bajo_la_curva_threads.c
     ./a.exe
 
 
