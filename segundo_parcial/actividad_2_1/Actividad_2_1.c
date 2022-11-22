@@ -84,9 +84,9 @@ int main()
                 // Create new pixel in gray scale
                 pixel = 0.21*r + 0.72*g + 0.07*b;
 
-                *(arrImgInput + j) = 0;
-                *(arrImgInput + j + 1) = 0;
-                *(arrImgInput + j + 2) = r;
+                *(arrImgInput + j) = pixel;
+                *(arrImgInput + j + 1) = pixel;
+                *(arrImgInput + j + 2) = pixel;
 
                 counter += 3;
 
