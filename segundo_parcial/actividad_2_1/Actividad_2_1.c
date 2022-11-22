@@ -17,7 +17,7 @@ int main()
     image = fopen("original_kitten.bmp", "rb");
     // image = fopen("sample.bmp", "rb");
     // Create new image
-    outputImage = fopen("kitten_red.bmp", "wb");
+    outputImage = fopen("kitten_gray_ubuntu.bmp", "wb");
     // outputImage = fopen("inverted_kitten_img/sample_2.bmp", "wb");
 
     // Declare width & height of the image
