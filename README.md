@@ -1,5 +1,7 @@
 # Multiprocesadores
 
+Enlace a Wiki: https://github.com/Fernando74lr/Multiprocesadores/wiki/PROYECTO-FINAL
+
 En este repositorio se enlistan todos los códigos utilizados para la materia de
 'Multiprocesadores'.
 
