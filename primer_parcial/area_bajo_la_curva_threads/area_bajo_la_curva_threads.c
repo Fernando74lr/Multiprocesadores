@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <omp.h>
-static long num_pasos = 2500000; // (1,000,000,000) Definimos número de pasos.
+static long num_pasos = 500 * 1000000; // (1,000,000,000) Definimos número de pasos.
 double paso;
-#define NUM_THREADS 1
+#define NUM_THREADS 20
 
 void main() 
 {
@@ -32,7 +32,7 @@ void main()
             sum[id] += 4.0 / (1.0 + x*x);
         }
 
-        printf("ID Thread [%d]  |  Value [%f]\n", id, sum[id]);
+        printf("\nID Thread [%d]  |  Value [%f]\n", id, sum[id]);
     }
 
     for (i=0, pi = 0.0; i < nthreads; i++)
@@ -44,9 +44,9 @@ void main()
     tiempo = t2 - t1;
     
     printf("NUM_THREADS = (%d)\n", NUM_THREADS);
-    printf("num pasos = (%d)\n", num_pasos);
+    printf("num pasos = (%ld)\n", num_pasos);
     printf("pi = (%lf)\n", pi);
-    printf("tomo (%lf) segundos\n", tiempo);
+    printf("tomo (%lf) segundos\n\n", tiempo);
 }
 
 /*

@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <omp.h>
 // Define number of threads
-#define NUM_THREADS 1
+#define NUM_THREADS 2
 
 int main()
 {

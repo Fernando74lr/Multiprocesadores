@@ -8,9 +8,9 @@ int main()
     #pragma omp parallel 
     {
         int ID = omp_get_thread_num();
-        printf("Procesadores(%d)", ID);
+        printf("\nProcesadores(%d)", ID);
         printf("Multiples(%d)", ID);
-        printf("En Accion(%d) --- %d\n", ID, ID);
+        printf("En Accion --- %d\n\n", ID);
     }
 }
 

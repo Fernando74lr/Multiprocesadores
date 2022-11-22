@@ -5,10 +5,10 @@
 // Define number of threads
 #define NUM_THREADS 6
 // Step number
-#define N 2500000 // 2,500,00 steps
+#define N 250000000 // 2,500,00 steps
 
 // Define file pointer
-FILE *fptr;
+FILE * fptr;
 
 // Function declarations
 void iteration(int op_type);
